@@ -1,0 +1,190 @@
+*{font-family: "Roboto";
+margin: 0;
+padding: 0;}
+
+body{
+    background-image: url(bg01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    position: fixed;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;   
+}
+
+.title{
+    width: 25%;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+.menu {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: tomato;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.animation{
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 4px;
+    animation: changesize 5s infinite linear;
+    animation-timing-function: ease-in-out;
+}
+@keyframes changesize{
+    from{
+        color: aqua;
+    }
+    to{
+        color: tomato;
+    }
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.content{
+
+    padding: 20px;
+    width: 90%;
+    height: 50%;
+    background-color: rgb(10, 10, 10);
+    opacity: 0.8;
+    box-shadow: 8px 8px 5px -5px aqua;
+}
+
+.content1{
+
+    padding: 20px;
+    width: 70%;
+    height: 45%;
+    background-color: rgb(10, 10, 10);
+    opacity: 0.8;
+    
+}
+
+.content2{
+
+    padding: 20px;
+    width: 60%;
+    height: 40%;
+    background-color: rgb(10, 10, 10);
+    opacity: 0.8;
+}
+
+.content4{
+
+    padding: 20px;
+    width: 80%;
+    height: 30%;
+    background-color: rgb(10, 10, 10);
+    opacity: 0.8;
+}
+.content h3{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 2px blue;
+    text-transform: uppercase;
+}
+
+.content p{
+    font-size: 25px;
+    color: white;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+    margin-top: 5%;
+}
+.content a{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transform: all .5s ease;
+    border-radius: 4px;
+    outline: none;
+}
+
+.btnone{
+    background-color: aqua;
+    padding: 10px 20px;
+    color: black;
+    margin: 10px;
+}
+
+.btnone:hover, .btntow:hover{
+    background-color: brown;
+    color: white;
+}
+
+.btntow{
+    background-color: tomato;
+    padding: 10px 20px;
+    color: black;
+    margin: 10px;
+}
+
+form {
+    
+    
+    margin: 50px;
+  }
+  
+  label {
+    font-weight: bold;
+    
+  }
+  
+  input, textarea {
+    
+    padding: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid tomato;
+    width: 70%;  
+  }
+
+  .from1{
+    margin-bottom: 100px ;
+    max-width: 100%;
+  }
+

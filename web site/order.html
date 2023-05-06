@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="sty.css">
+    
+</head>
+<body>
+    <nav>
+    <div class="title">
+        <p class="animatio">Coffee vavuniya</p>
+    </div>
+    
+    <div class="menu">
+        <a href="index.html">home</a>
+        <a href="order.html">order</a>
+        <a href="about.html">about us</a>
+        <a href="contact.html">contact us</a>
+        
+    
+</div>
+</nav>
+<!--main content-->
+<main>
+    <section class="content2"><center>
+        <table>
+            <tr>
+                <td>number of cups:   </td><br>
+                <td><input type="text" size="50" id="firstNumber"></td>
+            </tr>
+            <tr>
+                <td>unit price:</td>
+                <td><input type="text" size="50" id="secondNumber"></td>
+            </tr>
+        </table> </center><br><br> <button onclick="calculate()" style="background-color: #ff5100; padding: 0.3cm; float: left;">calculate</button>
+        <br><br><br><br>
+        <p style="float: left;">Total: <span id="result">  </span></p> 
+    </section>
+</main>    
+
+<!--forter-->
+<footer>
+    <p>CofeeVavuniya&copy;2023</p>
+</footer>
+<script src="cal.js"></script>
+</body>
+</html>
